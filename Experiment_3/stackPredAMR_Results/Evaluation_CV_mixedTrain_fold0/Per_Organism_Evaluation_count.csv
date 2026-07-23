@@ -1,0 +1,26 @@
+,Organism_Code,Antibiotic,Test_Count_NA,Test_Count_S,Test_Count_I,Test_Count_R,Train_Count_NA,Train_Count_S,Train_Count_I,Train_Count_R
+0,ECO,Amikacin_AB,29.0,239.0,0,11.0,124.0,1219.0,0,49.0
+1,ECO,Amoxicillin-clavulanic acid_AB,47.0,174.0,0,58.0,212.0,863.0,0,317.0
+2,ECO,Ampicillin-sulbactam_AB,270.0,4.0,0,5.0,1303.0,23.0,0,66.0
+3,ECO,Ampicillin_AB,217.0,15.0,0,47.0,1079.0,56.0,0,257.0
+4,ECO,Aztreonam_AB,272.0,4.0,0,3.0,1318.0,31.0,0,43.0
+5,ECO,Cefazolin_AB,260.0,5.0,0,14.0,1262.0,23.0,0,107.0
+6,ECO,Cefepime_AB,232.0,34.0,0,13.0,1135.0,184.0,0,73.0
+7,ECO,Cefotaxime_AB,79.0,140.0,0,60.0,371.0,690.0,0,331.0
+8,ECO,Ceftazidime_AB,23.0,215.0,0,41.0,134.0,1040.0,0,218.0
+9,ECO,Ceftriaxone_AB,222.0,29.0,0,28.0,1105.0,128.0,0,159.0
+10,ECO,Cefuroxime_AB,274.0,4.0,0,1.0,1357.0,23.0,0,12.0
+11,ECO,Ciprofloxacin_AB,22.0,164.0,0,93.0,88.0,740.0,0,564.0
+12,ECO,Ertapenem_AB,247.0,25.0,0,7.0,1195.0,152.0,0,45.0
+13,ECO,Gentamicin_AB,15.0,226.0,0,38.0,82.0,1112.0,0,198.0
+14,ECO,Levofloxacin_AB,252.0,8.0,0,19.0,1230.0,38.0,0,124.0
+15,ECO,Meropenem_AB,24.0,254.0,0,1.0,101.0,1285.0,0,6.0
+16,ECO,Moxifloxacin_AB,278.0,0.0,0,1.0,1382.0,4.0,0,6.0
+17,ECO,Nitrofurantoin_AB,238.0,39.0,0,2.0,1217.0,172.0,0,3.0
+18,ECO,Norfloxacin_AB,257.0,18.0,0,4.0,1308.0,71.0,0,13.0
+19,ECO,Piperacillin-tazobactam_AB,49.0,203.0,0,27.0,206.0,1053.0,0,133.0
+20,ECO,Ticarcillin-clavulanic acid_AB,275.0,4.0,0,0.0,1369.0,21.0,0,2.0
+21,ECO,Tigecycline_AB,273.0,1.0,0,5.0,1348.0,11.0,0,33.0
+22,ECO,Tobramycin_AB,233.0,31.0,0,15.0,1181.0,142.0,0,69.0
+23,ECO,Trimethoprim-sulfamethoxazole_AB,199.0,8.0,0,72.0,1004.0,42.0,0,346.0
+24,ECO,Trimethoprim_AB,260.0,7.0,0,12.0,1307.0,25.0,0,60.0

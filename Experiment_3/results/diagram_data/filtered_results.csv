@@ -1,0 +1,4 @@
+,Acc,ROC AUC,F1-Score
+External,0.55,0.88,0.36
+Mixed,0.68,0.93,0.65
+Internal,0.90,0.86,0.84

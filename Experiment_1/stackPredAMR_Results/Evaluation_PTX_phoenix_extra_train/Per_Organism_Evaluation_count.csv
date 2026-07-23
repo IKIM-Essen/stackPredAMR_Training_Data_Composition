@@ -1,0 +1,7 @@
+,Organism_Code,Antibiotic,Test_Count_NA,Test_Count_S,Test_Count_I,Test_Count_R,Train_Count_NA,Train_Count_S,Train_Count_I,Train_Count_R
+0,PTX,Amikacin_AB,0,41.0,0,50.0,0,227.0,0,225.0
+1,PTX,Ciprofloxacin_AB,0,12.0,0,79.0,0,68.0,0,384.0
+2,PTX,Gentamicin_AB,0,13.0,0,78.0,0,54.0,0,398.0
+3,PTX,Levofloxacin_AB,0,16.0,0,75.0,0,90.0,0,362.0
+4,PTX,Smipenem_AB,0,83.0,0,8.0,0,411.0,0,41.0
+5,PTX,Tobramycin_AB,0,31.0,0,60.0,0,164.0,0,288.0

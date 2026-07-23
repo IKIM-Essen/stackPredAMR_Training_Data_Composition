@@ -1,0 +1,4 @@
+,Organism_Code,Antibiotic,Test_Count_NA,Test_Count_S,Test_Count_I,Test_Count_R,Train_Count_NA,Train_Count_S,Train_Count_I,Train_Count_R
+0,PTX,Ciprofloxacin_AB,40.0,18.0,0,160.0,40.0,18.0,0,160.0
+1,PTX,Gentamicin_AB,1.0,19.0,0,198.0,1.0,19.0,0,198.0
+2,PTX,Tobramycin_AB,1.0,52.0,0,165.0,1.0,52.0,0,165.0

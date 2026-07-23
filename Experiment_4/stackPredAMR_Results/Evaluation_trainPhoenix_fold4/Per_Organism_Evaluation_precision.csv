@@ -1,0 +1,26 @@
+Target,EKP
+Amikacin_AB,0.9798076923076924
+Amoxicillin-clavulanic acid_AB,0.8814814814814815
+Ampicillin-sulbactam_AB,0.9001322751322751
+Ampicillin_AB,1.0
+Aztreonam_AB,0.9387871853546911
+Cefazolin_AB,0.9397715472481827
+Cefepime_AB,0.8632053105737316
+Cefotaxime_AB,1.0
+Ceftazidime-avibactam_AB,1.0
+Ceftazidime_AB,0.9450460829493088
+Ceftolozane-tazobactam_AB,1.0
+Ceftriaxone_AB,0.7645971914264598
+Cefuroxime_AB,0.938034188034188
+Ciprofloxacin_AB,0.8571428571428572
+Ertapenem_AB,0.9827586206896552
+Gentamicin_AB,0.9532982261640799
+Imipenem_AB,0.9423714759535655
+Levofloxacin_AB,0.9301668806161746
+Meropenem_AB,0.9916666666666667
+Piperacillin-tazobactam_AB,0.9077586206896552
+Tigecycline_AB,0.4810126582278481
+Tobramycin_AB,0.9717171717171718
+Trimethoprim-sulfamethoxazole_AB,0.875
+Trimethoprim_AB,0.9166666666666667
+Median,0.9392793663014369

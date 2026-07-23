@@ -1,0 +1,7 @@
+Metric,Train set,Phoenix Test,VITEK Test,Unclassified Test
+Accuracy,Phoenix Train,0.01,0.02,0.02
+Accuracy,Combined Train,0.03,0.01,0.03
+ROC,Phoenix Train,0.01,0.03,0.02
+ROC,Combined Train,0.02,0.02,0.02
+F1,Phoenix Train,0.02,0.03,0.02
+F1,Combined Train,0.03,0.01,0.03

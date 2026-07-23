@@ -1,0 +1,11 @@
+Target,Accuracy,ROC_Mean,PR_Mean,Precision_Mean,Recall_Mean,F1_Mean,VME,ME,Test_Count_S,Test_Count_I,Test_Count_R,Train_Count_S,Train_Count_I,Train_Count_R
+Trimethoprim-sulfamethoxazole_AB,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ceftriaxone_AB,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Gentamicin_AB,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ampicillin_AB,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ciprofloxacin_AB,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Amoxicillin-clavulanic acid_AB,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Cefazolin_AB,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ticarcillin-clavulanic acid_AB,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Ampicillin-sulbactam_AB,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Median,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,

@@ -1,0 +1,5 @@
+
+,Acc,ROC,F1
+VITEK Baseline,0.01,0.01,0.01
+Phoenix enriched,0.01,0.01,0.01
+NA enriched,0.01,0.03,0.02

@@ -1,0 +1,22 @@
+,Organism_Code,Antibiotic,Test_Count_NA,Test_Count_S,Test_Count_I,Test_Count_R,Train_Count_NA,Train_Count_S,Train_Count_I,Train_Count_R
+0,EKP,Amikacin_AB,803.0,430.0,0,255.0,803.0,430.0,0,255.0
+1,EKP,Amoxicillin-clavulanic acid_AB,875.0,61.0,0,552.0,875.0,61.0,0,552.0
+2,EKP,Ampicillin-sulbactam_AB,822.0,65.0,0,601.0,822.0,65.0,0,601.0
+3,EKP,Aztreonam_AB,899.0,97.0,0,492.0,899.0,97.0,0,492.0
+4,EKP,Cefazolin_AB,1285.0,20.0,0,183.0,1285.0,20.0,0,183.0
+5,EKP,Cefepime_AB,806.0,106.0,0,576.0,806.0,106.0,0,576.0
+6,EKP,Cefotaxime_AB,187.0,106.0,0,1195.0,187.0,106.0,0,1195.0
+7,EKP,Ceftazidime-avibactam_AB,1350.0,100.0,0,38.0,1350.0,100.0,0,38.0
+8,EKP,Ceftazidime_AB,101.0,287.0,0,1100.0,101.0,287.0,0,1100.0
+9,EKP,Ceftriaxone_AB,654.0,66.0,0,768.0,654.0,66.0,0,768.0
+10,EKP,Cefuroxime_AB,507.0,373.0,0,608.0,507.0,373.0,0,608.0
+11,EKP,Ciprofloxacin_AB,626.0,131.0,0,731.0,626.0,131.0,0,731.0
+12,EKP,Ertapenem_AB,1081.0,29.0,0,378.0,1081.0,29.0,0,378.0
+13,EKP,Gentamicin_AB,640.0,452.0,0,396.0,640.0,452.0,0,396.0
+14,EKP,Imipenem_AB,777.0,496.0,0,215.0,777.0,496.0,0,215.0
+15,EKP,Levofloxacin_AB,1026.0,209.0,0,253.0,1026.0,209.0,0,253.0
+16,EKP,Meropenem_AB,755.0,485.0,0,248.0,755.0,485.0,0,248.0
+17,EKP,Piperacillin-tazobactam_AB,844.0,243.0,0,401.0,844.0,243.0,0,401.0
+18,EKP,Tigecycline_AB,305.0,281.0,0,902.0,305.0,281.0,0,902.0
+19,EKP,Tobramycin_AB,1027.0,170.0,0,291.0,1027.0,170.0,0,291.0
+20,EKP,Trimethoprim-sulfamethoxazole_AB,935.0,21.0,0,532.0,935.0,21.0,0,532.0
