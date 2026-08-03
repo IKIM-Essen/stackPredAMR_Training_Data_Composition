@@ -1,0 +1,10 @@
+Target,Accuracy,ROC_Mean,F1_Mean
+Amikacin_AB,0.90,0.94,0.87
+Gentamicin_AB,0.90,0.95,0.90
+Piperacillin-tazobactam_AB,0.89,0.94,0.88
+Amikacin_AB,0.91,0.94,0.88
+Gentamicin_AB,0.88,0.94,0.88
+Piperacillin-tazobactam_AB,0.85,0.79,0.70
+Amikacin_AB,0.83,0.92,0.81
+Gentamicin_AB,0.88,0.94,0.88
+Piperacillin-tazobactam_AB,0.71,0.76,0.67
