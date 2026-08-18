@@ -1,3 +1,3 @@
 Overall,Accuracy,ROC AUC,F1-Score
-Phoenix Train ,0.02,0.03,0.02
-Combined Train,0.02,0.06,0.03
+Phoenix Train ,0.02,0.01,0.02
+Combined Train,0.02,0.03,0.02
