@@ -1,0 +1,22 @@
+Antibiotic,S,R,Total
+trimethoprim-sulfamethoxazole,163,43,206
+ceftriaxone,164,42,206
+gentamicin,194,12,206
+ampicillin,91,115,206
+ciprofloxacin,182,24,206
+amoxicillin-clavulanic acid,69,49,118
+colistin,88,0,88
+cefepime,88,0,88
+meropenem,88,0,88
+amikacin,88,0,88
+tigecycline,0,88,88
+ceftazidime,88,0,88
+piperacillin-tazobactam,0,88,88
+cefazolin,79,9,88
+tobramycin,0,88,88
+cefuroxime,88,0,88
+ertapenem,0,88,88
+ticarcillin-clavulanic acid,74,14,88
+aztreonam,88,0,88
+cefpodoxime,0,88,88
+ampicillin-sulbactam,65,23,88
