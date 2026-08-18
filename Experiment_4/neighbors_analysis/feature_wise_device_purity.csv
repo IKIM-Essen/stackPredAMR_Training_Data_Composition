@@ -1,454 +1,454 @@
-feature                      , category , PHOENIX_count, VITEK_count, PHOENIX_freq, VITEK_freq, purity
-amoxicillin/clavulanic acid  , MISSING  ,          1575,         614,      1.0    ,    0.72406, 1.0
-azithromycin                 , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-beta-lactam                  , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-cefalotin                    , MISSING  ,          1575,         779,      1.0    ,    0.91863, 1.0
-cefotaxime                   , MISSING  ,          1575,         136,      1.0    ,    0.16038, 1.0
-cefotetan                    , MISSING  ,          1575,         380,      1.0    ,    0.44811, 1.0
-cefpodoxime                  , MISSING  ,          1575,         380,      1.0    ,    0.44811, 1.0
-cefpodoxime_clavulanic_acid  , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-ceftazidime/avibactam        , MISSING  ,          1575,         380,      1.0    ,    0.44811, 1.0
-ceftolozane/tazobactam       , MISSING  ,          1575,         380,      1.0    ,    0.44811, 1.0
-cephalexin                   , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-cephalothin                  , MISSING  ,          1575,         315,      1.0    ,    0.37146, 1.0
-chloramphenicol              , MISSING  ,          1575,         824,      1.0    ,    0.9717 , 1.0
-colistin                     , MISSING  ,          1575,         834,      1.0    ,    0.98349, 1.0
-ertapenem                    , MISSING  ,          1575,          38,      1.0    ,    0.04481, 1.0
-fosfomycin                   , MISSING  ,          1575,         820,      1.0    ,    0.96698, 1.0
-moxifloxacin                 , MISSING  ,          1575,         380,      1.0    ,    0.44811, 1.0
-nalidixic acid               , MISSING  ,          1575,         380,      1.0    ,    0.44811, 1.0
-netilmicin                   , MISSING  ,          1575,         838,      1.0    ,    0.98821, 1.0
-norfloxacin                  , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-piperacillin                 , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-polymyxin B                  , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-streptomycin                 , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-sulfamethoxazole             , MISSING  ,          1575,         838,      1.0    ,    0.98821, 1.0
-ticarcillin                  , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-ticarcillin/clavulanic acid  , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-tigecycline                  , MISSING  ,          1575,         165,      1.0    ,    0.19458, 1.0
-trimethoprim                 , MISSING  ,          1575,         769,      1.0    ,    0.90684, 1.0
-trimethoprim/sulfobactam     , MISSING  ,          1575,         848,      1.0    ,    1.0    , 1.0
-ampicillin                   , >16      ,          1551,           1,      0.98476,    0.00118, 0.98476
-cefazolin                    , >16      ,          1411,           0,      0.89587,    0.0    , 0.89587
-cefuroxime                   , >16      ,          1404,           1,      0.89143,    0.00118, 0.89143
-ampicillin/sulbactam         , >16/8    ,          1386,           1,      0.88   ,    0.00118, 0.88
-ampicillin                   , >=32     ,             0,         742,      0.0    ,    0.875  , 0.875
-ceftriaxone                  , >32      ,          1361,           1,      0.86413,    0.00118, 0.86413
-ciprofloxacin                , >2       ,          1352,           1,      0.85841,    0.00118, 0.85841
-ceftazidime                  , >16      ,          1315,           1,      0.83492,    0.00118, 0.83492
-aztreonam                    , >16      ,          1245,           1,      0.79048,    0.00118, 0.79048
-levofloxacin                 , >4       ,          1223,           1,      0.77651,    0.00118, 0.77651
-trimethoprim/sulfamethoxazole, >2/38    ,          1186,           0,      0.75302,    0.0    , 0.75302
-amikacin                     , <=8      ,          1012,           0,      0.64254,    0.0    , 0.64254
-amikacin                     , <=2      ,             0,         542,      0.0    ,    0.63915, 0.63915
-piperacillin/tazobactam      , >64/4    ,           999,           1,      0.63429,    0.00118, 0.63429
-imipenem                     , <=1      ,           971,          29,      0.61651,    0.0342 , 0.61651
-meropenem                    , <=1      ,           945,           0,      0.6    ,    0.0    , 0.6
-cefoxitin                    , <=4      ,           396,         465,      0.25143,    0.54835, 0.54835
-cefuroxime                   , >=64     ,             0,         459,      0.0    ,    0.54127, 0.54127
-cefotaxime                   , >=64     ,             0,         429,      0.0    ,    0.5059 , 0.5059
-cefoxitin                    , >16      ,           786,           0,      0.49905,    0.0    , 0.49905
-gentamicin                   , <=1      ,             0,         407,      0.0    ,    0.47995, 0.47995
-cefepime                     , >16      ,           750,           0,      0.47619,    0.0    , 0.47619
-tetracycline                 , >8       ,           741,           0,      0.47048,    0.0    , 0.47048
-nitrofurantoin               , MISSING  ,           728,         273,      0.46222,    0.32193, 0.46222
-cefotetan                    , <=4      ,             0,         383,      0.0    ,    0.45165, 0.45165
-ciprofloxacin                , >=4      ,             0,         372,      0.0    ,    0.43868, 0.43868
-tobramycin                   , >8       ,           683,           0,      0.43365,    0.0    , 0.43365
-nitrofurantoin               , >64      ,           682,           1,      0.43302,    0.00118, 0.43302
-cefazolin                    , >=64     ,             0,         358,      0.0    ,    0.42217, 0.42217
-cefepime                     , >=32     ,             0,         357,      0.0    ,    0.42099, 0.42099
-meropenem                    , <=25     ,             0,         352,      0.0    ,    0.41509, 0.41509
-gentamicin                   , >8       ,           651,           0,      0.41333,    0.0    , 0.41333
-ertapenem                    , <=12     ,             0,         340,      0.0    ,    0.40094, 0.40094
-tetracycline                 , MISSING  ,             0,         335,      0.0    ,    0.39505, 0.39505
-ampicillin/sulbactam         , MISSING  ,             0,         334,      0.0    ,    0.39387, 0.39387
-gentamicin                   , >=16     ,             0,         329,      0.0    ,    0.38797, 0.38797
-gentamicin                   , <=2      ,           609,           0,      0.38667,    0.0    , 0.38667
-ampicillin/sulbactam         , >=32/16  ,             0,         324,      0.0    ,    0.38208, 0.38208
-cephalothin                  , >=64     ,             0,         322,      0.0    ,    0.37972, 0.37972
-trimethoprim/sulfamethoxazole, >=16/304 ,             0,         317,      0.0    ,    0.37382, 0.37382
-tobramycin                   , >=16     ,             0,         314,      0.0    ,    0.37028, 0.37028
-ceftriaxone                  , >=64     ,             0,         311,      0.0    ,    0.36675, 0.36675
-ceftazidime                  , >=64     ,             0,         306,      0.0    ,    0.36085, 0.36085
-ceftriaxone                  , MISSING  ,             0,         306,      0.0    ,    0.36085, 0.36085
-aztreonam                    , >=64     ,             0,         302,      0.0    ,    0.35613, 0.35613
-imipenem                     , <=25     ,             0,         301,      0.0    ,    0.35495, 0.35495
-cefpodoxime                  , >=8      ,             0,         296,      0.0    ,    0.34906, 0.34906
-tetracycline                 , >=16     ,             0,         280,      0.0    ,    0.33019, 0.33019
-cefazolin                    , MISSING  ,             0,         275,      0.0    ,    0.32429, 0.32429
-levofloxacin                 , MISSING  ,             0,         269,      0.0    ,    0.31722, 0.31722
-tobramycin                   , <=1      ,             0,         251,      0.0    ,    0.29599, 0.29599
-tigecycline                  , <=5      ,             0,         245,      0.0    ,    0.28892, 0.28892
-imipenem                     , MISSING  ,             0,         243,      0.0    ,    0.28656, 0.28656
-tetracycline                 , 4        ,           450,           0,      0.28571,    0.0    , 0.28571
-tobramycin                   , <=2      ,           446,           0,      0.28317,    0.0    , 0.28317
-ceftolozane/tazobactam       , <=25/4   ,             0,         234,      0.0    ,    0.27594, 0.27594
-meropenem                    , <=0.25   ,             0,         230,      0.0    ,    0.27123, 0.27123
-ceftazidime/avibactam        , <=12/4   ,             0,         226,      0.0    ,    0.26651, 0.26651
-ceftazidime                  , <=1      ,             0,         211,      0.0    ,    0.24882, 0.24882
-ertapenem                    , >=8      ,             0,         209,      0.0    ,    0.24646, 0.24646
-nitrofurantoin               , =128     ,             0,         209,      0.0    ,    0.24646, 0.24646
-cefuroxime                   , MISSING  ,            79,         200,      0.05016,    0.23585, 0.23585
-meropenem                    , >=16     ,             0,         199,      0.0    ,    0.23467, 0.23467
-nalidixic acid               , >=32     ,             0,         199,      0.0    ,    0.23467, 0.23467
-levofloxacin                 , >=8      ,             0,         195,      0.0    ,    0.22995, 0.22995
-aztreonam                    , MISSING  ,            23,         190,      0.0146 ,    0.22406, 0.22406
-aztreonam                    , <=1      ,            66,         185,      0.0419 ,    0.21816, 0.21816
-meropenem                    , >8       ,           343,           0,      0.21778,    0.0    , 0.21778
-tobramycin                   , 8        ,           341,          28,      0.21651,    0.03302, 0.21651
-trimethoprim/sulfamethoxazole, >=320    ,             0,         181,      0.0    ,    0.21344, 0.21344
-ciprofloxacin                , <=25     ,             0,         178,      0.0    ,    0.20991, 0.20991
-cefoxitin                    , >=64     ,             0,         175,      0.0    ,    0.20637, 0.20637
-cefazolin                    , <=4      ,             0,         174,      0.0    ,    0.20519, 0.20519
-cefepime                     , <=12     ,             0,         172,      0.0    ,    0.20283, 0.20283
-imipenem                     , >8       ,           315,           0,      0.2    ,    0.0    , 0.2
-piperacillin/tazobactam      , >=128/4  ,             0,         169,      0.0    ,    0.19929, 0.19929
-amikacin                     , >=64     ,             0,         168,      0.0    ,    0.19811, 0.19811
-cefotaxime                   , <=25     ,             0,         167,      0.0    ,    0.19693, 0.19693
-ceftriaxone                  , <=25     ,             0,         167,      0.0    ,    0.19693, 0.19693
-moxifloxacin                 , >=8      ,             0,         167,      0.0    ,    0.19693, 0.19693
-trimethoprim/sulfamethoxazole, <=1/19   ,             0,         166,      0.0    ,    0.19575, 0.19575
-levofloxacin                 , <=1      ,           306,           0,      0.19429,    0.0    , 0.19429
-cefpodoxime                  , <=25     ,             0,         162,      0.0    ,    0.19104, 0.19104
-levofloxacin                 , <=12     ,             0,         159,      0.0    ,    0.1875 , 0.1875
-imipenem                     , >=16     ,             0,         157,      0.0    ,    0.18514, 0.18514
-cefepime                     , MISSING  ,            89,         156,      0.05651,    0.18396, 0.18396
-piperacillin/tazobactam      , <=4/4    ,             0,         156,      0.0    ,    0.18396, 0.18396
-tobramycin                   , MISSING  ,             0,         156,      0.0    ,    0.18396, 0.18396
-moxifloxacin                 , <=25     ,             0,         155,      0.0    ,    0.18278, 0.18278
-piperacillin/tazobactam      , MISSING  ,             0,         155,      0.0    ,    0.18278, 0.18278
-cefepime                     , <=1      ,           287,          30,      0.18222,    0.03538, 0.18222
-levofloxacin                 , =1       ,             0,         151,      0.0    ,    0.17807, 0.17807
-tetracycline                 , <=1      ,            42,         136,      0.02667,    0.16038, 0.16038
-amoxicillin/clavulanic acid  , >=32     ,             0,         130,      0.0    ,    0.1533 , 0.1533
-tigecycline                  , =1       ,             0,         128,      0.0    ,    0.15094, 0.15094
-cefoxitin                    , 8        ,           232,          13,      0.1473 ,    0.01533, 0.1473
-amikacin                     , 32       ,           225,           4,      0.14286,    0.00472, 0.14286
-ceftolozane/tazobactam       , >=32/4   ,             0,         120,      0.0    ,    0.14151, 0.14151
-nitrofurantoin               , =64      ,             0,         120,      0.0    ,    0.14151, 0.14151
-nalidixic acid               , =4       ,             0,         116,      0.0    ,    0.13679, 0.13679
-cefoxitin                    , MISSING  ,            19,         112,      0.01206,    0.13208, 0.13208
-ceftazidime                  , MISSING  ,             0,         111,      0.0    ,    0.1309 , 0.1309
-ertapenem                    , <=0.5    ,             0,         111,      0.0    ,    0.1309 , 0.1309
-trimethoprim/sulfamethoxazole, <=0.5/9  ,           203,           0,      0.12889,    0.0    , 0.12889
-moxifloxacin                 , =2       ,             0,         108,      0.0    ,    0.12736, 0.12736
-tigecycline                  , 2        ,             0,         108,      0.0    ,    0.12736, 0.12736
-ceftazidime                  , =16      ,             0,         102,      0.0    ,    0.12028, 0.12028
-cephalothin                  , <=2      ,             0,          97,      0.0    ,    0.11439, 0.11439
-trimethoprim/sulfamethoxazole, MISSING  ,             0,          97,      0.0    ,    0.11439, 0.11439
-nalidixic acid               , =16      ,             0,          96,      0.0    ,    0.11321, 0.11321
-tetracycline                 , <=2      ,           176,           0,      0.11175,    0.0    , 0.11175
-cefepime                     , 16       ,           166,           4,      0.1054 ,    0.00472, 0.1054
-gentamicin                   , 4        ,           166,          48,      0.1054 ,    0.0566 , 0.1054
-cefuroxime                   , =2       ,             0,          87,      0.0    ,    0.10259, 0.10259
-ampicillin/sulbactam         , =8/4     ,             0,          86,      0.0    ,    0.10142, 0.10142
-ceftazidime/avibactam        , =5/4     ,             0,          85,      0.0    ,    0.10024, 0.10024
-nitrofurantoin               , =256     ,             0,          84,      0.0    ,    0.09906, 0.09906
-piperacillin/tazobactam      , 16/4     ,           155,           0,      0.09841,    0.0    , 0.09841
-ciprofloxacin                , <=0.5    ,           145,           1,      0.09206,    0.00118, 0.09206
-cefoxitin                    , 16       ,           142,          22,      0.09016,    0.02594, 0.09016
-ertapenem                    , <=0.12   ,             0,          76,      0.0    ,    0.08962, 0.08962
-tetracycline                 , 8        ,           140,           0,      0.08889,    0.0    , 0.08889
-ciprofloxacin                , =1       ,             0,          74,      0.0    ,    0.08726, 0.08726
-piperacillin/tazobactam      , >=128    ,             0,          74,      0.0    ,    0.08726, 0.08726
-amikacin                     , <=4      ,           133,           0,      0.08444,    0.0    , 0.08444
-cefalotin                    , >=64     ,             0,          68,      0.0    ,    0.08019, 0.08019
-piperacillin/tazobactam      , =16/4    ,             0,          68,      0.0    ,    0.08019, 0.08019
-tobramycin                   , =8       ,             0,          68,      0.0    ,    0.08019, 0.08019
-meropenem                    , <=0.125  ,           125,           0,      0.07937,    0.0    , 0.07937
-cefotetan                    , >=64     ,             0,          66,      0.0    ,    0.07783, 0.07783
-ceftazidime/avibactam        , =25/4    ,             0,          66,      0.0    ,    0.07783, 0.07783
-ciprofloxacin                , <=0.25   ,             0,          65,      0.0    ,    0.07665, 0.07665
-piperacillin/tazobactam      , 4/4      ,           118,           0,      0.07492,    0.0    , 0.07492
-ciprofloxacin                , =2       ,             0,          63,      0.0    ,    0.07429, 0.07429
-nitrofurantoin               , >=512    ,             0,          63,      0.0    ,    0.07429, 0.07429
-ampicillin                   , MISSING  ,             0,          62,      0.0    ,    0.07311, 0.07311
-aztreonam                    , =16      ,             0,          62,      0.0    ,    0.07311, 0.07311
-tigecycline                  , >=8      ,             0,          62,      0.0    ,    0.07311, 0.07311
-cefepime                     , 4        ,           115,           1,      0.07302,    0.00118, 0.07302
-ampicillin/sulbactam         , 16/8     ,           114,           0,      0.07238,    0.0    , 0.07238
-nitrofurantoin               , 64       ,           112,          14,      0.07111,    0.01651, 0.07111
-piperacillin/tazobactam      , 8/4      ,           109,           0,      0.06921,    0.0    , 0.06921
-imipenem                     , 8        ,           104,           3,      0.06603,    0.00354, 0.06603
-amikacin                     , 16       ,           102,           8,      0.06476,    0.00943, 0.06476
-amikacin                     , >32      ,           100,           1,      0.06349,    0.00118, 0.06349
-piperacillin/tazobactam      , 32/4     ,            99,           0,      0.06286,    0.0    , 0.06286
-piperacillin/tazobactam      , =32/4    ,             0,          53,      0.0    ,    0.0625 , 0.0625
-trimethoprim                 , >=16     ,             0,          53,      0.0    ,    0.0625 , 0.0625
-aztreonam                    , <=2      ,            97,           0,      0.06159,    0.0    , 0.06159
-ceftazidime                  , 16       ,            97,          26,      0.06159,    0.03066, 0.06159
-imipenem                     , <=0.25   ,            95,          10,      0.06032,    0.01179, 0.06032
-trimethoprim/sulfamethoxazole, <=20     ,             0,          50,      0.0    ,    0.05896, 0.05896
-trimethoprim/sulfamethoxazole, <=0.5/9.5,            91,           0,      0.05778,    0.0    , 0.05778
-aztreonam                    , 16       ,            89,          39,      0.05651,    0.04599, 0.05651
-tigecycline                  , 1        ,             0,          47,      0.0    ,    0.05542, 0.05542
-ceftazidime/avibactam        , >=16/4   ,             0,          46,      0.0    ,    0.05425, 0.05425
-amikacin                     , =16      ,             0,          43,      0.0    ,    0.05071, 0.05071
-cefuroxime                   , <=1      ,             0,          43,      0.0    ,    0.05071, 0.05071
-cefazolin                    , >32      ,            79,           0,      0.05016,    0.0    , 0.05016
-gentamicin                   , 1        ,            79,           0,      0.05016,    0.0    , 0.05016
-tobramycin                   , 1        ,            77,           0,      0.04889,    0.0    , 0.04889
-cefepime                     , >=64     ,             0,          41,      0.0    ,    0.04835, 0.04835
-piperacillin/tazobactam      , 64/4     ,            74,           0,      0.04698,    0.0    , 0.04698
-nalidixic acid               , <=2      ,             0,          39,      0.0    ,    0.04599, 0.04599
-ceftazidime                  , <=0.5    ,            72,           0,      0.04571,    0.0    , 0.04571
-cefepime                     , =2       ,             0,          38,      0.0    ,    0.04481, 0.04481
-ceftolozane/tazobactam       , =1/4     ,             0,          38,      0.0    ,    0.04481, 0.04481
-ceftolozane/tazobactam       , =16/4    ,             0,          38,      0.0    ,    0.04481, 0.04481
-tetracycline                 , =2       ,             0,          38,      0.0    ,    0.04481, 0.04481
-cefepime                     , <=0.5    ,            69,           0,      0.04381,    0.0    , 0.04381
-ceftriaxone                  , =32      ,             0,          37,      0.0    ,    0.04363, 0.04363
-cephalothin                  , <=1      ,             0,          37,      0.0    ,    0.04363, 0.04363
-imipenem                     , =5       ,             0,          37,      0.0    ,    0.04363, 0.04363
-piperacillin/tazobactam      , 16       ,             0,          37,      0.0    ,    0.04363, 0.04363
-cefotaxime                   , <=1      ,             0,          36,      0.0    ,    0.04245, 0.04245
-levofloxacin                 , =4       ,             0,          36,      0.0    ,    0.04245, 0.04245
-ampicillin/sulbactam         , 8/4      ,            66,           0,      0.0419 ,    0.0    , 0.0419
-cefepime                     , 8        ,            66,           2,      0.0419 ,    0.00236, 0.0419
-ceftriaxone                  , <=0.5    ,            66,           0,      0.0419 ,    0.0    , 0.0419
-cefuroxime                   , <=4      ,            66,           0,      0.0419 ,    0.0    , 0.0419
-ceftazidime/avibactam        , =1/4     ,             0,          35,      0.0    ,    0.04127, 0.04127
-meropenem                    , 4        ,            62,           6,      0.03937,    0.00708, 0.03937
-ceftazidime                  , 32       ,             0,          33,      0.0    ,    0.03892, 0.03892
-imipenem                     , =1       ,             0,          33,      0.0    ,    0.03892, 0.03892
-piperacillin/tazobactam      , =64/4    ,             0,          33,      0.0    ,    0.03892, 0.03892
-cephalothin                  , =4       ,             0,          32,      0.0    ,    0.03774, 0.03774
-ciprofloxacin                , 1        ,            39,          32,      0.02476,    0.03774, 0.03774
-piperacillin/tazobactam      , =8/4     ,             0,          32,      0.0    ,    0.03774, 0.03774
-cefoxitin                    , =16      ,             0,          31,      0.0    ,    0.03656, 0.03656
-levofloxacin                 , <=0.12   ,             0,          31,      0.0    ,    0.03656, 0.03656
-tetracycline                 , =4       ,             0,          31,      0.0    ,    0.03656, 0.03656
-gentamicin                   , 8        ,            55,          19,      0.03492,    0.02241, 0.03492
-ceftriaxone                  , <=2      ,            54,           0,      0.03429,    0.0    , 0.03429
-cefotaxime                   , =32      ,             0,          29,      0.0    ,    0.0342 , 0.0342
-ciprofloxacin                , 2        ,            39,          29,      0.02476,    0.0342 , 0.0342
-moxifloxacin                 , =4       ,             0,          29,      0.0    ,    0.0342 , 0.0342
-ceftazidime                  , =4       ,             0,          28,      0.0    ,    0.03302, 0.03302
-ertapenem                    , 0.25     ,             0,          28,      0.0    ,    0.03302, 0.03302
-nitrofurantoin               , <=16     ,            17,          28,      0.01079,    0.03302, 0.03302
-tetracycline                 , =8       ,             0,          28,      0.0    ,    0.03302, 0.03302
-trimethoprim/sulfamethoxazole, 1/19     ,            52,           0,      0.03302,    0.0    , 0.03302
-ceftriaxone                  , 32       ,            50,           0,      0.03175,    0.0    , 0.03175
-amoxicillin/clavulanic acid  , 16       ,             0,          26,      0.0    ,    0.03066, 0.03066
-meropenem                    , 8        ,            48,           6,      0.03048,    0.00708, 0.03048
-ampicillin/sulbactam         , >=32     ,             0,          25,      0.0    ,    0.02948, 0.02948
-ampicillin/sulbactam         , =4/2     ,             0,          24,      0.0    ,    0.0283 , 0.0283
-piperacillin/tazobactam      , <=4      ,             0,          24,      0.0    ,    0.0283 , 0.0283
-tigecycline                  , =2       ,             0,          24,      0.0    ,    0.0283 , 0.0283
-meropenem                    , 2        ,            44,           1,      0.02794,    0.00118, 0.02794
-trimethoprim/sulfamethoxazole, 2/38     ,            43,           0,      0.0273 ,    0.0    , 0.0273
-cefuroxime                   , =4       ,             0,          23,      0.0    ,    0.02712, 0.02712
-cephalothin                  , =8       ,             0,          23,      0.0    ,    0.02712, 0.02712
-ceftazidime                  , 8        ,            42,           3,      0.02667,    0.00354, 0.02667
-amikacin                     , 4        ,             0,          21,      0.0    ,    0.02476, 0.02476
-piperacillin/tazobactam      , 32       ,             0,          21,      0.0    ,    0.02476, 0.02476
-trimethoprim/sulfamethoxazole, =2/38    ,             0,          21,      0.0    ,    0.02476, 0.02476
-ampicillin/sulbactam         , <=2/1    ,             0,          20,      0.0    ,    0.02358, 0.02358
-imipenem                     , =2       ,             0,          20,      0.0    ,    0.02358, 0.02358
-tigecycline                  , 4        ,             0,          20,      0.0    ,    0.02358, 0.02358
-nitrofurantoin               , 32       ,            36,           4,      0.02286,    0.00472, 0.02286
-amoxicillin/clavulanic acid  , =16/8    ,             0,          19,      0.0    ,    0.02241, 0.02241
-amoxicillin/clavulanic acid  , >=32/16  ,             0,          19,      0.0    ,    0.02241, 0.02241
-aztreonam                    , =2       ,             0,          19,      0.0    ,    0.02241, 0.02241
-ceftolozane/tazobactam       , =8/4     ,             0,          19,      0.0    ,    0.02241, 0.02241
-aztreonam                    , 4        ,            35,           1,      0.02222,    0.00118, 0.02222
-cefazolin                    , <=1      ,            35,           1,      0.02222,    0.00118, 0.02222
-cefuroxime                   , =16      ,             0,          18,      0.0    ,    0.02123, 0.02123
-nalidixic acid               , =8       ,             0,          18,      0.0    ,    0.02123, 0.02123
-tigecycline                  , <=0.5    ,             0,          18,      0.0    ,    0.02123, 0.02123
-amikacin                     , 8        ,             3,          17,      0.0019 ,    0.02005, 0.02005
-meropenem                    , =1       ,             0,          17,      0.0    ,    0.02005, 0.02005
-nitrofurantoin               , 256      ,             0,          17,      0.0    ,    0.02005, 0.02005
-imipenem                     , 0.5      ,            31,           0,      0.01968,    0.0    , 0.01968
-imipenem                     , 4        ,            31,           2,      0.01968,    0.00236, 0.01968
-amoxicillin/clavulanic acid  , 8        ,             0,          16,      0.0    ,    0.01887, 0.01887
-cefepime                     , =8       ,             0,          16,      0.0    ,    0.01887, 0.01887
-gentamicin                   , =8       ,             0,          16,      0.0    ,    0.01887, 0.01887
-nitrofurantoin               , =32      ,             0,          16,      0.0    ,    0.01887, 0.01887
-levofloxacin                 , 4        ,            29,           2,      0.01841,    0.00236, 0.01841
-ceftriaxone                  , 16       ,            28,           0,      0.01778,    0.0    , 0.01778
-amikacin                     , =4       ,             0,          15,      0.0    ,    0.01769, 0.01769
-cefazolin                    , =16      ,             0,          15,      0.0    ,    0.01769, 0.01769
-cefazolin                    , >=8      ,             0,          15,      0.0    ,    0.01769, 0.01769
-ceftriaxone                  , =1       ,             0,          15,      0.0    ,    0.01769, 0.01769
-fosfomycin                   , <=16     ,             0,          15,      0.0    ,    0.01769, 0.01769
-tigecycline                  , =4       ,             0,          15,      0.0    ,    0.01769, 0.01769
-ceftazidime                  , 1        ,            27,           0,      0.01714,    0.0    , 0.01714
-ampicillin/sulbactam         , =16/8    ,             0,          14,      0.0    ,    0.01651, 0.01651
-aztreonam                    , =4       ,             0,          14,      0.0    ,    0.01651, 0.01651
-cefepime                     , 2        ,            26,          11,      0.01651,    0.01297, 0.01651
-cefotaxime                   , =16      ,             0,          14,      0.0    ,    0.01651, 0.01651
-cefotetan                    , =32      ,             0,          14,      0.0    ,    0.01651, 0.01651
-ceftolozane/tazobactam       , =5/4     ,             0,          14,      0.0    ,    0.01651, 0.01651
-chloramphenicol              , =4       ,             0,          14,      0.0    ,    0.01651, 0.01651
-ciprofloxacin                , =5       ,             0,          14,      0.0    ,    0.01651, 0.01651
-ertapenem                    , <=0.25   ,             0,          14,      0.0    ,    0.01651, 0.01651
-piperacillin/tazobactam      , 8        ,             0,          14,      0.0    ,    0.01651, 0.01651
-tetracycline                 , 2        ,            26,           0,      0.01651,    0.0    , 0.01651
-tigecycline                  , <=2      ,             0,          14,      0.0    ,    0.01651, 0.01651
-imipenem                     , 2        ,            25,           5,      0.01587,    0.0059 , 0.01587
-amikacin                     , =8       ,             0,          13,      0.0    ,    0.01533, 0.01533
-cefoxitin                    , =32      ,             0,          13,      0.0    ,    0.01533, 0.01533
-ciprofloxacin                , 0.5      ,             0,          13,      0.0    ,    0.01533, 0.01533
-colistin                     , <=0.5    ,             0,          13,      0.0    ,    0.01533, 0.01533
-meropenem                    , =8       ,             0,          13,      0.0    ,    0.01533, 0.01533
-trimethoprim                 , <=0.5    ,             0,          13,      0.0    ,    0.01533, 0.01533
-ampicillin                   , 16       ,            24,           9,      0.01524,    0.01061, 0.01524
-tobramycin                   , 4        ,            23,           6,      0.0146 ,    0.00708, 0.0146
-ceftazidime                  , =8       ,             0,          12,      0.0    ,    0.01415, 0.01415
-piperacillin/tazobactam      , <=2/4    ,            21,           0,      0.01333,    0.0    , 0.01333
-ampicillin                   , <=2      ,             0,          11,      0.0    ,    0.01297, 0.01297
-aztreonam                    , 8        ,            20,           7,      0.0127 ,    0.00825, 0.0127
-cefazolin                    , 2        ,            20,           0,      0.0127 ,    0.0    , 0.0127
-amikacin                     , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-amoxicillin/clavulanic acid  , =1/1     ,             0,          10,      0.0    ,    0.01179, 0.01179
-ampicillin                   , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-aztreonam                    , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-aztreonam                    , =32      ,             0,          10,      0.0    ,    0.01179, 0.01179
-cefotaxime                   , 16       ,             0,          10,      0.0    ,    0.01179, 0.01179
-cefotaxime                   , 8        ,             0,          10,      0.0    ,    0.01179, 0.01179
-cefpodoxime                  , =2       ,             0,          10,      0.0    ,    0.01179, 0.01179
-chloramphenicol              , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-fosfomycin                   , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-gentamicin                   , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-netilmicin                   , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-nitrofurantoin               , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-sulfamethoxazole             , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-tobramycin                   , =4       ,             0,          10,      0.0    ,    0.01179, 0.01179
-trimethoprim                 , =1       ,             0,          10,      0.0    ,    0.01179, 0.01179
-levofloxacin                 , 2        ,            17,           0,      0.01079,    0.0    , 0.01079
-cefazolin                    , <=2      ,             1,           9,      0.00063,    0.01061, 0.01061
-cefepime                     , =1       ,             0,           9,      0.0    ,    0.01061, 0.01061
-cefoxitin                    , 32       ,             0,           9,      0.0    ,    0.01061, 0.01061
-ceftazidime                  , =32      ,             0,           9,      0.0    ,    0.01061, 0.01061
-ertapenem                    , =1       ,             0,           9,      0.0    ,    0.01061, 0.01061
-ertapenem                    , >=1      ,             0,           9,      0.0    ,    0.01061, 0.01061
-meropenem                    , =4       ,             0,           9,      0.0    ,    0.01061, 0.01061
-piperacillin/tazobactam      , 64       ,             0,           9,      0.0    ,    0.01061, 0.01061
-tobramycin                   , 2        ,             2,           9,      0.00127,    0.01061, 0.01061
-meropenem                    , =2       ,             0,           8,      0.0    ,    0.00943, 0.00943
-cefuroxime                   , 16       ,            14,           3,      0.00889,    0.00354, 0.00889
-ampicillin/sulbactam         , 4        ,             0,           7,      0.0    ,    0.00825, 0.00825
-ampicillin/sulbactam         , 8        ,             0,           7,      0.0    ,    0.00825, 0.00825
-cefepime                     , =4       ,             0,           7,      0.0    ,    0.00825, 0.00825
-cefotaxime                   , 4        ,             0,           7,      0.0    ,    0.00825, 0.00825
-cefoxitin                    , =8       ,             0,           7,      0.0    ,    0.00825, 0.00825
-cefuroxime                   , 4        ,             0,           7,      0.0    ,    0.00825, 0.00825
-gentamicin                   , =4       ,             0,           7,      0.0    ,    0.00825, 0.00825
-nitrofurantoin               , 128      ,             0,           7,      0.0    ,    0.00825, 0.00825
-ceftazidime                  , 4        ,            12,           2,      0.00762,    0.00236, 0.00762
-cefuroxime                   , 8        ,            12,           1,      0.00762,    0.00118, 0.00762
-amikacin                     , =32      ,             0,           6,      0.0    ,    0.00708, 0.00708
-tobramycin                   , =2       ,             0,           6,      0.0    ,    0.00708, 0.00708
-cefazolin                    , 16       ,            11,           0,      0.00698,    0.0    , 0.00698
-gentamicin                   , <=0.5    ,            11,           0,      0.00698,    0.0    , 0.00698
-cefazolin                    , 4        ,            10,           1,      0.00635,    0.00118, 0.00635
-ceftazidime                  , 2        ,            10,           0,      0.00635,    0.0    , 0.00635
-amoxicillin/clavulanic acid  , 4        ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ampicillin                   , =16      ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ampicillin                   , =8       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ampicillin/sulbactam         , <=2      ,             0,           5,      0.0    ,    0.0059 , 0.0059
-aztreonam                    , 32       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-cefotaxime                   , =5       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-cefotetan                    , =8       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ceftazidime/avibactam        , =4/4     ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ceftazidime/avibactam        , =8/4     ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ceftolozane/tazobactam       , =4/4     ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ceftriaxone                  , =16      ,             0,           5,      0.0    ,    0.0059 , 0.0059
-cefuroxime                   , =32      ,             0,           5,      0.0    ,    0.0059 , 0.0059
-cephalothin                  , 16       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-cephalothin                  , =16      ,             0,           5,      0.0    ,    0.0059 , 0.0059
-cephalothin                  , =32      ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ciprofloxacin                , =0.5     ,             0,           5,      0.0    ,    0.0059 , 0.0059
-gentamicin                   , 2        ,             4,           5,      0.00254,    0.0059 , 0.0059
-imipenem                     , =8       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-moxifloxacin                 , =1       ,             0,           5,      0.0    ,    0.0059 , 0.0059
-trimethoprim/sulfamethoxazole, =8/152   ,             0,           5,      0.0    ,    0.0059 , 0.0059
-ampicillin/sulbactam         , 4/2      ,             9,           0,      0.00571,    0.0    , 0.00571
-ceftriaxone                  , 4        ,             9,           0,      0.00571,    0.0    , 0.00571
-ceftriaxone                  , =8       ,             0,           4,      0.0    ,    0.00472, 0.00472
-cephalothin                  , 8        ,             0,           4,      0.0    ,    0.00472, 0.00472
-gentamicin                   , =2       ,             0,           4,      0.0    ,    0.00472, 0.00472
-moxifloxacin                 , =5       ,             0,           4,      0.0    ,    0.00472, 0.00472
-cefazolin                    , 8        ,             7,           0,      0.00444,    0.0    , 0.00444
-cefepime                     , 1        ,             7,           1,      0.00444,    0.00118, 0.00444
-amoxicillin/clavulanic acid  , =4/2     ,             0,           3,      0.0    ,    0.00354, 0.00354
-aztreonam                    , 2        ,             0,           3,      0.0    ,    0.00354, 0.00354
-cefotaxime                   , 2        ,             0,           3,      0.0    ,    0.00354, 0.00354
-cephalothin                  , 2        ,             0,           3,      0.0    ,    0.00354, 0.00354
-ertapenem                    , =4       ,             0,           3,      0.0    ,    0.00354, 0.00354
-trimethoprim/sulfamethoxazole, 40       ,             0,           3,      0.0    ,    0.00354, 0.00354
-trimethoprim/sulfamethoxazole, =4/76    ,             0,           3,      0.0    ,    0.00354, 0.00354
-ceftriaxone                  , 8        ,             5,           0,      0.00317,    0.0    , 0.00317
-amoxicillin/clavulanic acid  , <=2      ,             0,           2,      0.0    ,    0.00236, 0.00236
-amoxicillin/clavulanic acid  , =8/4     ,             0,           2,      0.0    ,    0.00236, 0.00236
-ceftazidime                  , =0.5     ,             0,           2,      0.0    ,    0.00236, 0.00236
-ertapenem                    , 1        ,             0,           2,      0.0    ,    0.00236, 0.00236
-ertapenem                    , 4        ,             0,           2,      0.0    ,    0.00236, 0.00236
-fosfomycin                   , =64      ,             0,           2,      0.0    ,    0.00236, 0.00236
-gentamicin                   , <=16     ,             0,           2,      0.0    ,    0.00236, 0.00236
-imipenem                     , 1        ,             2,           2,      0.00127,    0.00236, 0.00236
-levofloxacin                 , 1        ,             0,           2,      0.0    ,    0.00236, 0.00236
-meropenem                    , >=4      ,             0,           2,      0.0    ,    0.00236, 0.00236
-trimethoprim                 , 2        ,             0,           2,      0.0    ,    0.00236, 0.00236
-trimethoprim/sulfamethoxazole, 80       ,             0,           2,      0.0    ,    0.00236, 0.00236
-tobramycin                   , <=0.5    ,             3,           0,      0.0019 ,    0.0    , 0.0019
-ceftriaxone                  , 2        ,             2,           0,      0.00127,    0.0    , 0.00127
-amoxicillin/clavulanic acid  , <=2/1    ,             0,           1,      0.0    ,    0.00118, 0.00118
-amoxicillin/clavulanic acid  , >=16/8   ,             0,           1,      0.0    ,    0.00118, 0.00118
-ampicillin                   , 8        ,             0,           1,      0.0    ,    0.00118, 0.00118
-ampicillin                   , =32      ,             0,           1,      0.0    ,    0.00118, 0.00118
-ampicillin                   , >=30     ,             0,           1,      0.0    ,    0.00118, 0.00118
-ampicillin/sulbactam         , 16       ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefalotin                    , 4        ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefepime                     , <=0.12   ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefepime                     , <=2      ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefepime                     , =16      ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefotaxime                   , 32       ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefotaxime                   , <=0.25   ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefoxitin                    , =4       ,             0,           1,      0.0    ,    0.00118, 0.00118
-ceftazidime                  , 0.5      ,             0,           1,      0.0    ,    0.00118, 0.00118
-ceftazidime                  , >=4      ,             0,           1,      0.0    ,    0.00118, 0.00118
-ceftriaxone                  , <=1      ,             0,           1,      0.0    ,    0.00118, 0.00118
-ceftriaxone                  , =64      ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefuroxime                   , 32       ,             0,           1,      0.0    ,    0.00118, 0.00118
-ciprofloxacin                , <=1      ,             0,           1,      0.0    ,    0.00118, 0.00118
-colistin                     , =1       ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , 2        ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , <0.25    ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , <=1      ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , <=19     ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , >4       ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , >=0.5    ,             0,           1,      0.0    ,    0.00118, 0.00118
-ertapenem                    , >=2      ,             0,           1,      0.0    ,    0.00118, 0.00118
-fosfomycin                   , >=256    ,             0,           1,      0.0    ,    0.00118, 0.00118
-gentamicin                   , <=4      ,             0,           1,      0.0    ,    0.00118, 0.00118
-imipenem                     , =4       ,             0,           1,      0.0    ,    0.00118, 0.00118
-levofloxacin                 , 0.25     ,             0,           1,      0.0    ,    0.00118, 0.00118
-levofloxacin                 , <0.12    ,             0,           1,      0.0    ,    0.00118, 0.00118
-meropenem                    , 32       ,             0,           1,      0.0    ,    0.00118, 0.00118
-meropenem                    , <0.25    ,             0,           1,      0.0    ,    0.00118, 0.00118
-meropenem                    , =0.5     ,             0,           1,      0.0    ,    0.00118, 0.00118
-meropenem                    , >=0.25   ,             0,           1,      0.0    ,    0.00118, 0.00118
-meropenem                    , >=32     ,             0,           1,      0.0    ,    0.00118, 0.00118
-nitrofurantoin               , >512     ,             0,           1,      0.0    ,    0.00118, 0.00118
-nitrofurantoin               , >=320    ,             0,           1,      0.0    ,    0.00118, 0.00118
-piperacillin/tazobactam      , =64/8    ,             0,           1,      0.0    ,    0.00118, 0.00118
-piperacillin/tazobactam      , >=16/4   ,             0,           1,      0.0    ,    0.00118, 0.00118
-tigecycline                  , 8        ,             0,           1,      0.0    ,    0.00118, 0.00118
-tigecycline                  , >=2      ,             0,           1,      0.0    ,    0.00118, 0.00118
-trimethoprim                 , 4        ,             0,           1,      0.0    ,    0.00118, 0.00118
-trimethoprim/sulfamethoxazole, <=16/304 ,             0,           1,      0.0    ,    0.00118, 0.00118
-trimethoprim/sulfamethoxazole, >1/19    ,             0,           1,      0.0    ,    0.00118, 0.00118
-trimethoprim/sulfamethoxazole, >=30     ,             0,           1,      0.0    ,    0.00118, 0.00118
-cefazolin                    , 32       ,             1,           0,      0.00063,    0.0    , 0.00063
-imipenem                     , 6        ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 0.023    ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 0.032    ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 0.094    ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 0.125    ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 0.25     ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 0.38     ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 1        ,             1,           0,      0.00063,    0.0    , 0.00063
-meropenem                    , 6        ,             1,           0,      0.00063,    0.0    , 0.00063
+feature,category,PHOENIX_count,VITEK_count,PHOENIX_freq,VITEK_freq,purity
+amoxicillin/clavulanic acid,MISSING,1575,614,1.0,0.72406,1.0
+azithromycin,MISSING,1575,848,1.0,1.0,1.0
+beta-lactam,MISSING,1575,848,1.0,1.0,1.0
+cefalotin,MISSING,1575,779,1.0,0.91863,1.0
+cefotaxime,MISSING,1575,136,1.0,0.16038,1.0
+cefotetan,MISSING,1575,380,1.0,0.44811,1.0
+cefpodoxime,MISSING,1575,380,1.0,0.44811,1.0
+cefpodoxime_clavulanic_acid,MISSING,1575,848,1.0,1.0,1.0
+ceftazidime/avibactam,MISSING,1575,380,1.0,0.44811,1.0
+ceftolozane/tazobactam,MISSING,1575,380,1.0,0.44811,1.0
+cephalexin,MISSING,1575,848,1.0,1.0,1.0
+cephalothin,MISSING,1575,315,1.0,0.37146,1.0
+chloramphenicol,MISSING,1575,824,1.0,0.9717,1.0
+colistin,MISSING,1575,834,1.0,0.98349,1.0
+ertapenem,MISSING,1575,38,1.0,0.04481,1.0
+fosfomycin,MISSING,1575,820,1.0,0.96698,1.0
+moxifloxacin,MISSING,1575,380,1.0,0.44811,1.0
+nalidixic acid,MISSING,1575,380,1.0,0.44811,1.0
+netilmicin,MISSING,1575,838,1.0,0.98821,1.0
+norfloxacin,MISSING,1575,848,1.0,1.0,1.0
+piperacillin,MISSING,1575,848,1.0,1.0,1.0
+polymyxin B,MISSING,1575,848,1.0,1.0,1.0
+streptomycin,MISSING,1575,848,1.0,1.0,1.0
+sulfamethoxazole,MISSING,1575,838,1.0,0.98821,1.0
+ticarcillin,MISSING,1575,848,1.0,1.0,1.0
+ticarcillin/clavulanic acid,MISSING,1575,848,1.0,1.0,1.0
+tigecycline,MISSING,1575,165,1.0,0.19458,1.0
+trimethoprim,MISSING,1575,769,1.0,0.90684,1.0
+trimethoprim/sulfobactam,MISSING,1575,848,1.0,1.0,1.0
+ampicillin,>16,1551,1,0.98476,0.00118,0.98476
+cefazolin,>16,1411,0,0.89587,0.0,0.89587
+cefuroxime,>16,1404,1,0.89143,0.00118,0.89143
+ampicillin/sulbactam,>16/8,1386,1,0.88,0.00118,0.88
+ampicillin,>=32,0,742,0.0,0.875,0.875
+ceftriaxone,>32,1361,1,0.86413,0.00118,0.86413
+ciprofloxacin,>2,1352,1,0.85841,0.00118,0.85841
+ceftazidime,>16,1315,1,0.83492,0.00118,0.83492
+aztreonam,>16,1245,1,0.79048,0.00118,0.79048
+levofloxacin,>4,1223,1,0.77651,0.00118,0.77651
+trimethoprim/sulfamethoxazole,>2/38,1186,0,0.75302,0.0,0.75302
+amikacin,<=8,1012,0,0.64254,0.0,0.64254
+amikacin,<=2,0,542,0.0,0.63915,0.63915
+piperacillin/tazobactam,>64/4,999,1,0.63429,0.00118,0.63429
+imipenem,<=1,971,29,0.61651,0.0342,0.61651
+meropenem,<=1,945,0,0.6,0.0,0.6
+cefoxitin,<=4,396,465,0.25143,0.54835,0.54835
+cefuroxime,>=64,0,459,0.0,0.54127,0.54127
+cefotaxime,>=64,0,429,0.0,0.5059,0.5059
+cefoxitin,>16,786,0,0.49905,0.0,0.49905
+gentamicin,<=1,0,407,0.0,0.47995,0.47995
+cefepime,>16,750,0,0.47619,0.0,0.47619
+tetracycline,>8,741,0,0.47048,0.0,0.47048
+nitrofurantoin,MISSING,728,273,0.46222,0.32193,0.46222
+cefotetan,<=4,0,383,0.0,0.45165,0.45165
+ciprofloxacin,>=4,0,372,0.0,0.43868,0.43868
+tobramycin,>8,683,0,0.43365,0.0,0.43365
+nitrofurantoin,>64,682,1,0.43302,0.00118,0.43302
+cefazolin,>=64,0,358,0.0,0.42217,0.42217
+cefepime,>=32,0,357,0.0,0.42099,0.42099
+meropenem,<=25,0,352,0.0,0.41509,0.41509
+gentamicin,>8,651,0,0.41333,0.0,0.41333
+ertapenem,<=12,0,340,0.0,0.40094,0.40094
+tetracycline,MISSING,0,335,0.0,0.39505,0.39505
+ampicillin/sulbactam,MISSING,0,334,0.0,0.39387,0.39387
+gentamicin,>=16,0,329,0.0,0.38797,0.38797
+gentamicin,<=2,609,0,0.38667,0.0,0.38667
+ampicillin/sulbactam,>=32/16,0,324,0.0,0.38208,0.38208
+cephalothin,>=64,0,322,0.0,0.37972,0.37972
+trimethoprim/sulfamethoxazole,>=16/304,0,317,0.0,0.37382,0.37382
+tobramycin,>=16,0,314,0.0,0.37028,0.37028
+ceftriaxone,>=64,0,311,0.0,0.36675,0.36675
+ceftazidime,>=64,0,306,0.0,0.36085,0.36085
+ceftriaxone,MISSING,0,306,0.0,0.36085,0.36085
+aztreonam,>=64,0,302,0.0,0.35613,0.35613
+imipenem,<=25,0,301,0.0,0.35495,0.35495
+cefpodoxime,>=8,0,296,0.0,0.34906,0.34906
+tetracycline,>=16,0,280,0.0,0.33019,0.33019
+cefazolin,MISSING,0,275,0.0,0.32429,0.32429
+levofloxacin,MISSING,0,269,0.0,0.31722,0.31722
+tobramycin,<=1,0,251,0.0,0.29599,0.29599
+tigecycline,<=5,0,245,0.0,0.28892,0.28892
+imipenem,MISSING,0,243,0.0,0.28656,0.28656
+tetracycline,4,450,0,0.28571,0.0,0.28571
+tobramycin,<=2,446,0,0.28317,0.0,0.28317
+ceftolozane/tazobactam,<=25/4,0,234,0.0,0.27594,0.27594
+meropenem,<=0.25,0,230,0.0,0.27123,0.27123
+ceftazidime/avibactam,<=12/4,0,226,0.0,0.26651,0.26651
+ceftazidime,<=1,0,211,0.0,0.24882,0.24882
+ertapenem,>=8,0,209,0.0,0.24646,0.24646
+nitrofurantoin,=128,0,209,0.0,0.24646,0.24646
+cefuroxime,MISSING,79,200,0.05016,0.23585,0.23585
+meropenem,>=16,0,199,0.0,0.23467,0.23467
+nalidixic acid,>=32,0,199,0.0,0.23467,0.23467
+levofloxacin,>=8,0,195,0.0,0.22995,0.22995
+aztreonam,MISSING,23,190,0.0146,0.22406,0.22406
+aztreonam,<=1,66,185,0.0419,0.21816,0.21816
+meropenem,>8,343,0,0.21778,0.0,0.21778
+tobramycin,8,341,28,0.21651,0.03302,0.21651
+trimethoprim/sulfamethoxazole,>=320,0,181,0.0,0.21344,0.21344
+ciprofloxacin,<=25,0,178,0.0,0.20991,0.20991
+cefoxitin,>=64,0,175,0.0,0.20637,0.20637
+cefazolin,<=4,0,174,0.0,0.20519,0.20519
+cefepime,<=12,0,172,0.0,0.20283,0.20283
+imipenem,>8,315,0,0.2,0.0,0.2
+piperacillin/tazobactam,>=128/4,0,169,0.0,0.19929,0.19929
+amikacin,>=64,0,168,0.0,0.19811,0.19811
+cefotaxime,<=25,0,167,0.0,0.19693,0.19693
+ceftriaxone,<=25,0,167,0.0,0.19693,0.19693
+moxifloxacin,>=8,0,167,0.0,0.19693,0.19693
+trimethoprim/sulfamethoxazole,<=1/19,0,166,0.0,0.19575,0.19575
+levofloxacin,<=1,306,0,0.19429,0.0,0.19429
+cefpodoxime,<=25,0,162,0.0,0.19104,0.19104
+levofloxacin,<=12,0,159,0.0,0.1875,0.1875
+imipenem,>=16,0,157,0.0,0.18514,0.18514
+cefepime,MISSING,89,156,0.05651,0.18396,0.18396
+piperacillin/tazobactam,<=4/4,0,156,0.0,0.18396,0.18396
+tobramycin,MISSING,0,156,0.0,0.18396,0.18396
+moxifloxacin,<=25,0,155,0.0,0.18278,0.18278
+piperacillin/tazobactam,MISSING,0,155,0.0,0.18278,0.18278
+cefepime,<=1,287,30,0.18222,0.03538,0.18222
+levofloxacin,=1,0,151,0.0,0.17807,0.17807
+tetracycline,<=1,42,136,0.02667,0.16038,0.16038
+amoxicillin/clavulanic acid,>=32,0,130,0.0,0.1533,0.1533
+tigecycline,=1,0,128,0.0,0.15094,0.15094
+cefoxitin,8,232,13,0.1473,0.01533,0.1473
+amikacin,32,225,4,0.14286,0.00472,0.14286
+ceftolozane/tazobactam,>=32/4,0,120,0.0,0.14151,0.14151
+nitrofurantoin,=64,0,120,0.0,0.14151,0.14151
+nalidixic acid,=4,0,116,0.0,0.13679,0.13679
+cefoxitin,MISSING,19,112,0.01206,0.13208,0.13208
+ceftazidime,MISSING,0,111,0.0,0.1309,0.1309
+ertapenem,<=0.5,0,111,0.0,0.1309,0.1309
+trimethoprim/sulfamethoxazole,<=0.5/9,203,0,0.12889,0.0,0.12889
+moxifloxacin,=2,0,108,0.0,0.12736,0.12736
+tigecycline,2,0,108,0.0,0.12736,0.12736
+ceftazidime,=16,0,102,0.0,0.12028,0.12028
+cephalothin,<=2,0,97,0.0,0.11439,0.11439
+trimethoprim/sulfamethoxazole,MISSING,0,97,0.0,0.11439,0.11439
+nalidixic acid,=16,0,96,0.0,0.11321,0.11321
+tetracycline,<=2,176,0,0.11175,0.0,0.11175
+cefepime,16,166,4,0.1054,0.00472,0.1054
+gentamicin,4,166,48,0.1054,0.0566,0.1054
+cefuroxime,=2,0,87,0.0,0.10259,0.10259
+ampicillin/sulbactam,=8/4,0,86,0.0,0.10142,0.10142
+ceftazidime/avibactam,=5/4,0,85,0.0,0.10024,0.10024
+nitrofurantoin,=256,0,84,0.0,0.09906,0.09906
+piperacillin/tazobactam,16/4,155,0,0.09841,0.0,0.09841
+ciprofloxacin,<=0.5,145,1,0.09206,0.00118,0.09206
+cefoxitin,16,142,22,0.09016,0.02594,0.09016
+ertapenem,<=0.12,0,76,0.0,0.08962,0.08962
+tetracycline,8,140,0,0.08889,0.0,0.08889
+ciprofloxacin,=1,0,74,0.0,0.08726,0.08726
+piperacillin/tazobactam,>=128,0,74,0.0,0.08726,0.08726
+amikacin,<=4,133,0,0.08444,0.0,0.08444
+cefalotin,>=64,0,68,0.0,0.08019,0.08019
+piperacillin/tazobactam,=16/4,0,68,0.0,0.08019,0.08019
+tobramycin,=8,0,68,0.0,0.08019,0.08019
+meropenem,<=0.125,125,0,0.07937,0.0,0.07937
+cefotetan,>=64,0,66,0.0,0.07783,0.07783
+ceftazidime/avibactam,=25/4,0,66,0.0,0.07783,0.07783
+ciprofloxacin,<=0.25,0,65,0.0,0.07665,0.07665
+piperacillin/tazobactam,4/4,118,0,0.07492,0.0,0.07492
+ciprofloxacin,=2,0,63,0.0,0.07429,0.07429
+nitrofurantoin,>=512,0,63,0.0,0.07429,0.07429
+ampicillin,MISSING,0,62,0.0,0.07311,0.07311
+aztreonam,=16,0,62,0.0,0.07311,0.07311
+tigecycline,>=8,0,62,0.0,0.07311,0.07311
+cefepime,4,115,1,0.07302,0.00118,0.07302
+ampicillin/sulbactam,16/8,114,0,0.07238,0.0,0.07238
+nitrofurantoin,64,112,14,0.07111,0.01651,0.07111
+piperacillin/tazobactam,8/4,109,0,0.06921,0.0,0.06921
+imipenem,8,104,3,0.06603,0.00354,0.06603
+amikacin,16,102,8,0.06476,0.00943,0.06476
+amikacin,>32,100,1,0.06349,0.00118,0.06349
+piperacillin/tazobactam,32/4,99,0,0.06286,0.0,0.06286
+piperacillin/tazobactam,=32/4,0,53,0.0,0.0625,0.0625
+trimethoprim,>=16,0,53,0.0,0.0625,0.0625
+aztreonam,<=2,97,0,0.06159,0.0,0.06159
+ceftazidime,16,97,26,0.06159,0.03066,0.06159
+imipenem,<=0.25,95,10,0.06032,0.01179,0.06032
+trimethoprim/sulfamethoxazole,<=20,0,50,0.0,0.05896,0.05896
+trimethoprim/sulfamethoxazole,<=0.5/9.5,91,0,0.05778,0.0,0.05778
+aztreonam,16,89,39,0.05651,0.04599,0.05651
+tigecycline,1,0,47,0.0,0.05542,0.05542
+ceftazidime/avibactam,>=16/4,0,46,0.0,0.05425,0.05425
+amikacin,=16,0,43,0.0,0.05071,0.05071
+cefuroxime,<=1,0,43,0.0,0.05071,0.05071
+cefazolin,>32,79,0,0.05016,0.0,0.05016
+gentamicin,1,79,0,0.05016,0.0,0.05016
+tobramycin,1,77,0,0.04889,0.0,0.04889
+cefepime,>=64,0,41,0.0,0.04835,0.04835
+piperacillin/tazobactam,64/4,74,0,0.04698,0.0,0.04698
+nalidixic acid,<=2,0,39,0.0,0.04599,0.04599
+ceftazidime,<=0.5,72,0,0.04571,0.0,0.04571
+cefepime,=2,0,38,0.0,0.04481,0.04481
+ceftolozane/tazobactam,=1/4,0,38,0.0,0.04481,0.04481
+ceftolozane/tazobactam,=16/4,0,38,0.0,0.04481,0.04481
+tetracycline,=2,0,38,0.0,0.04481,0.04481
+cefepime,<=0.5,69,0,0.04381,0.0,0.04381
+ceftriaxone,=32,0,37,0.0,0.04363,0.04363
+cephalothin,<=1,0,37,0.0,0.04363,0.04363
+imipenem,=5,0,37,0.0,0.04363,0.04363
+piperacillin/tazobactam,16,0,37,0.0,0.04363,0.04363
+cefotaxime,<=1,0,36,0.0,0.04245,0.04245
+levofloxacin,=4,0,36,0.0,0.04245,0.04245
+ampicillin/sulbactam,8/4,66,0,0.0419,0.0,0.0419
+cefepime,8,66,2,0.0419,0.00236,0.0419
+ceftriaxone,<=0.5,66,0,0.0419,0.0,0.0419
+cefuroxime,<=4,66,0,0.0419,0.0,0.0419
+ceftazidime/avibactam,=1/4,0,35,0.0,0.04127,0.04127
+meropenem,4,62,6,0.03937,0.00708,0.03937
+ceftazidime,32,0,33,0.0,0.03892,0.03892
+imipenem,=1,0,33,0.0,0.03892,0.03892
+piperacillin/tazobactam,=64/4,0,33,0.0,0.03892,0.03892
+cephalothin,=4,0,32,0.0,0.03774,0.03774
+ciprofloxacin,1,39,32,0.02476,0.03774,0.03774
+piperacillin/tazobactam,=8/4,0,32,0.0,0.03774,0.03774
+cefoxitin,=16,0,31,0.0,0.03656,0.03656
+levofloxacin,<=0.12,0,31,0.0,0.03656,0.03656
+tetracycline,=4,0,31,0.0,0.03656,0.03656
+gentamicin,8,55,19,0.03492,0.02241,0.03492
+ceftriaxone,<=2,54,0,0.03429,0.0,0.03429
+cefotaxime,=32,0,29,0.0,0.0342,0.0342
+ciprofloxacin,2,39,29,0.02476,0.0342,0.0342
+moxifloxacin,=4,0,29,0.0,0.0342,0.0342
+ceftazidime,=4,0,28,0.0,0.03302,0.03302
+ertapenem,0.25,0,28,0.0,0.03302,0.03302
+nitrofurantoin,<=16,17,28,0.01079,0.03302,0.03302
+tetracycline,=8,0,28,0.0,0.03302,0.03302
+trimethoprim/sulfamethoxazole,1/19,52,0,0.03302,0.0,0.03302
+ceftriaxone,32,50,0,0.03175,0.0,0.03175
+amoxicillin/clavulanic acid,16,0,26,0.0,0.03066,0.03066
+meropenem,8,48,6,0.03048,0.00708,0.03048
+ampicillin/sulbactam,>=32,0,25,0.0,0.02948,0.02948
+ampicillin/sulbactam,=4/2,0,24,0.0,0.0283,0.0283
+piperacillin/tazobactam,<=4,0,24,0.0,0.0283,0.0283
+tigecycline,=2,0,24,0.0,0.0283,0.0283
+meropenem,2,44,1,0.02794,0.00118,0.02794
+trimethoprim/sulfamethoxazole,2/38,43,0,0.0273,0.0,0.0273
+cefuroxime,=4,0,23,0.0,0.02712,0.02712
+cephalothin,=8,0,23,0.0,0.02712,0.02712
+ceftazidime,8,42,3,0.02667,0.00354,0.02667
+amikacin,4,0,21,0.0,0.02476,0.02476
+piperacillin/tazobactam,32,0,21,0.0,0.02476,0.02476
+trimethoprim/sulfamethoxazole,=2/38,0,21,0.0,0.02476,0.02476
+ampicillin/sulbactam,<=2/1,0,20,0.0,0.02358,0.02358
+imipenem,=2,0,20,0.0,0.02358,0.02358
+tigecycline,4,0,20,0.0,0.02358,0.02358
+nitrofurantoin,32,36,4,0.02286,0.00472,0.02286
+amoxicillin/clavulanic acid,=16/8,0,19,0.0,0.02241,0.02241
+amoxicillin/clavulanic acid,>=32/16,0,19,0.0,0.02241,0.02241
+aztreonam,=2,0,19,0.0,0.02241,0.02241
+ceftolozane/tazobactam,=8/4,0,19,0.0,0.02241,0.02241
+aztreonam,4,35,1,0.02222,0.00118,0.02222
+cefazolin,<=1,35,1,0.02222,0.00118,0.02222
+cefuroxime,=16,0,18,0.0,0.02123,0.02123
+nalidixic acid,=8,0,18,0.0,0.02123,0.02123
+tigecycline,<=0.5,0,18,0.0,0.02123,0.02123
+amikacin,8,3,17,0.0019,0.02005,0.02005
+meropenem,=1,0,17,0.0,0.02005,0.02005
+nitrofurantoin,256,0,17,0.0,0.02005,0.02005
+imipenem,0.5,31,0,0.01968,0.0,0.01968
+imipenem,4,31,2,0.01968,0.00236,0.01968
+amoxicillin/clavulanic acid,8,0,16,0.0,0.01887,0.01887
+cefepime,=8,0,16,0.0,0.01887,0.01887
+gentamicin,=8,0,16,0.0,0.01887,0.01887
+nitrofurantoin,=32,0,16,0.0,0.01887,0.01887
+levofloxacin,4,29,2,0.01841,0.00236,0.01841
+ceftriaxone,16,28,0,0.01778,0.0,0.01778
+amikacin,=4,0,15,0.0,0.01769,0.01769
+cefazolin,=16,0,15,0.0,0.01769,0.01769
+cefazolin,>=8,0,15,0.0,0.01769,0.01769
+ceftriaxone,=1,0,15,0.0,0.01769,0.01769
+fosfomycin,<=16,0,15,0.0,0.01769,0.01769
+tigecycline,=4,0,15,0.0,0.01769,0.01769
+ceftazidime,1,27,0,0.01714,0.0,0.01714
+ampicillin/sulbactam,=16/8,0,14,0.0,0.01651,0.01651
+aztreonam,=4,0,14,0.0,0.01651,0.01651
+cefepime,2,26,11,0.01651,0.01297,0.01651
+cefotaxime,=16,0,14,0.0,0.01651,0.01651
+cefotetan,=32,0,14,0.0,0.01651,0.01651
+ceftolozane/tazobactam,=5/4,0,14,0.0,0.01651,0.01651
+chloramphenicol,=4,0,14,0.0,0.01651,0.01651
+ciprofloxacin,=5,0,14,0.0,0.01651,0.01651
+ertapenem,<=0.25,0,14,0.0,0.01651,0.01651
+piperacillin/tazobactam,8,0,14,0.0,0.01651,0.01651
+tetracycline,2,26,0,0.01651,0.0,0.01651
+tigecycline,<=2,0,14,0.0,0.01651,0.01651
+imipenem,2,25,5,0.01587,0.0059,0.01587
+amikacin,=8,0,13,0.0,0.01533,0.01533
+cefoxitin,=32,0,13,0.0,0.01533,0.01533
+ciprofloxacin,0.5,0,13,0.0,0.01533,0.01533
+colistin,<=0.5,0,13,0.0,0.01533,0.01533
+meropenem,=8,0,13,0.0,0.01533,0.01533
+trimethoprim,<=0.5,0,13,0.0,0.01533,0.01533
+ampicillin,16,24,9,0.01524,0.01061,0.01524
+tobramycin,4,23,6,0.0146,0.00708,0.0146
+ceftazidime,=8,0,12,0.0,0.01415,0.01415
+piperacillin/tazobactam,<=2/4,21,0,0.01333,0.0,0.01333
+ampicillin,<=2,0,11,0.0,0.01297,0.01297
+aztreonam,8,20,7,0.0127,0.00825,0.0127
+cefazolin,2,20,0,0.0127,0.0,0.0127
+amikacin,=1,0,10,0.0,0.01179,0.01179
+amoxicillin/clavulanic acid,=1/1,0,10,0.0,0.01179,0.01179
+ampicillin,=1,0,10,0.0,0.01179,0.01179
+aztreonam,=1,0,10,0.0,0.01179,0.01179
+aztreonam,=32,0,10,0.0,0.01179,0.01179
+cefotaxime,16,0,10,0.0,0.01179,0.01179
+cefotaxime,8,0,10,0.0,0.01179,0.01179
+cefpodoxime,=2,0,10,0.0,0.01179,0.01179
+chloramphenicol,=1,0,10,0.0,0.01179,0.01179
+fosfomycin,=1,0,10,0.0,0.01179,0.01179
+gentamicin,=1,0,10,0.0,0.01179,0.01179
+netilmicin,=1,0,10,0.0,0.01179,0.01179
+nitrofurantoin,=1,0,10,0.0,0.01179,0.01179
+sulfamethoxazole,=1,0,10,0.0,0.01179,0.01179
+tobramycin,=4,0,10,0.0,0.01179,0.01179
+trimethoprim,=1,0,10,0.0,0.01179,0.01179
+levofloxacin,2,17,0,0.01079,0.0,0.01079
+cefazolin,<=2,1,9,0.00063,0.01061,0.01061
+cefepime,=1,0,9,0.0,0.01061,0.01061
+cefoxitin,32,0,9,0.0,0.01061,0.01061
+ceftazidime,=32,0,9,0.0,0.01061,0.01061
+ertapenem,=1,0,9,0.0,0.01061,0.01061
+ertapenem,>=1,0,9,0.0,0.01061,0.01061
+meropenem,=4,0,9,0.0,0.01061,0.01061
+piperacillin/tazobactam,64,0,9,0.0,0.01061,0.01061
+tobramycin,2,2,9,0.00127,0.01061,0.01061
+meropenem,=2,0,8,0.0,0.00943,0.00943
+cefuroxime,16,14,3,0.00889,0.00354,0.00889
+ampicillin/sulbactam,4,0,7,0.0,0.00825,0.00825
+ampicillin/sulbactam,8,0,7,0.0,0.00825,0.00825
+cefepime,=4,0,7,0.0,0.00825,0.00825
+cefotaxime,4,0,7,0.0,0.00825,0.00825
+cefoxitin,=8,0,7,0.0,0.00825,0.00825
+cefuroxime,4,0,7,0.0,0.00825,0.00825
+gentamicin,=4,0,7,0.0,0.00825,0.00825
+nitrofurantoin,128,0,7,0.0,0.00825,0.00825
+ceftazidime,4,12,2,0.00762,0.00236,0.00762
+cefuroxime,8,12,1,0.00762,0.00118,0.00762
+amikacin,=32,0,6,0.0,0.00708,0.00708
+tobramycin,=2,0,6,0.0,0.00708,0.00708
+cefazolin,16,11,0,0.00698,0.0,0.00698
+gentamicin,<=0.5,11,0,0.00698,0.0,0.00698
+cefazolin,4,10,1,0.00635,0.00118,0.00635
+ceftazidime,2,10,0,0.00635,0.0,0.00635
+amoxicillin/clavulanic acid,4,0,5,0.0,0.0059,0.0059
+ampicillin,=16,0,5,0.0,0.0059,0.0059
+ampicillin,=8,0,5,0.0,0.0059,0.0059
+ampicillin/sulbactam,<=2,0,5,0.0,0.0059,0.0059
+aztreonam,32,0,5,0.0,0.0059,0.0059
+cefotaxime,=5,0,5,0.0,0.0059,0.0059
+cefotetan,=8,0,5,0.0,0.0059,0.0059
+ceftazidime/avibactam,=4/4,0,5,0.0,0.0059,0.0059
+ceftazidime/avibactam,=8/4,0,5,0.0,0.0059,0.0059
+ceftolozane/tazobactam,=4/4,0,5,0.0,0.0059,0.0059
+ceftriaxone,=16,0,5,0.0,0.0059,0.0059
+cefuroxime,=32,0,5,0.0,0.0059,0.0059
+cephalothin,16,0,5,0.0,0.0059,0.0059
+cephalothin,=16,0,5,0.0,0.0059,0.0059
+cephalothin,=32,0,5,0.0,0.0059,0.0059
+ciprofloxacin,=0.5,0,5,0.0,0.0059,0.0059
+gentamicin,2,4,5,0.00254,0.0059,0.0059
+imipenem,=8,0,5,0.0,0.0059,0.0059
+moxifloxacin,=1,0,5,0.0,0.0059,0.0059
+trimethoprim/sulfamethoxazole,=8/152,0,5,0.0,0.0059,0.0059
+ampicillin/sulbactam,4/2,9,0,0.00571,0.0,0.00571
+ceftriaxone,4,9,0,0.00571,0.0,0.00571
+ceftriaxone,=8,0,4,0.0,0.00472,0.00472
+cephalothin,8,0,4,0.0,0.00472,0.00472
+gentamicin,=2,0,4,0.0,0.00472,0.00472
+moxifloxacin,=5,0,4,0.0,0.00472,0.00472
+cefazolin,8,7,0,0.00444,0.0,0.00444
+cefepime,1,7,1,0.00444,0.00118,0.00444
+amoxicillin/clavulanic acid,=4/2,0,3,0.0,0.00354,0.00354
+aztreonam,2,0,3,0.0,0.00354,0.00354
+cefotaxime,2,0,3,0.0,0.00354,0.00354
+cephalothin,2,0,3,0.0,0.00354,0.00354
+ertapenem,=4,0,3,0.0,0.00354,0.00354
+trimethoprim/sulfamethoxazole,40,0,3,0.0,0.00354,0.00354
+trimethoprim/sulfamethoxazole,=4/76,0,3,0.0,0.00354,0.00354
+ceftriaxone,8,5,0,0.00317,0.0,0.00317
+amoxicillin/clavulanic acid,<=2,0,2,0.0,0.00236,0.00236
+amoxicillin/clavulanic acid,=8/4,0,2,0.0,0.00236,0.00236
+ceftazidime,=0.5,0,2,0.0,0.00236,0.00236
+ertapenem,1,0,2,0.0,0.00236,0.00236
+ertapenem,4,0,2,0.0,0.00236,0.00236
+fosfomycin,=64,0,2,0.0,0.00236,0.00236
+gentamicin,<=16,0,2,0.0,0.00236,0.00236
+imipenem,1,2,2,0.00127,0.00236,0.00236
+levofloxacin,1,0,2,0.0,0.00236,0.00236
+meropenem,>=4,0,2,0.0,0.00236,0.00236
+trimethoprim,2,0,2,0.0,0.00236,0.00236
+trimethoprim/sulfamethoxazole,80,0,2,0.0,0.00236,0.00236
+tobramycin,<=0.5,3,0,0.0019,0.0,0.0019
+ceftriaxone,2,2,0,0.00127,0.0,0.00127
+amoxicillin/clavulanic acid,<=2/1,0,1,0.0,0.00118,0.00118
+amoxicillin/clavulanic acid,>=16/8,0,1,0.0,0.00118,0.00118
+ampicillin,8,0,1,0.0,0.00118,0.00118
+ampicillin,=32,0,1,0.0,0.00118,0.00118
+ampicillin,>=30,0,1,0.0,0.00118,0.00118
+ampicillin/sulbactam,16,0,1,0.0,0.00118,0.00118
+cefalotin,4,0,1,0.0,0.00118,0.00118
+cefepime,<=0.12,0,1,0.0,0.00118,0.00118
+cefepime,<=2,0,1,0.0,0.00118,0.00118
+cefepime,=16,0,1,0.0,0.00118,0.00118
+cefotaxime,32,0,1,0.0,0.00118,0.00118
+cefotaxime,<=0.25,0,1,0.0,0.00118,0.00118
+cefoxitin,=4,0,1,0.0,0.00118,0.00118
+ceftazidime,0.5,0,1,0.0,0.00118,0.00118
+ceftazidime,>=4,0,1,0.0,0.00118,0.00118
+ceftriaxone,<=1,0,1,0.0,0.00118,0.00118
+ceftriaxone,=64,0,1,0.0,0.00118,0.00118
+cefuroxime,32,0,1,0.0,0.00118,0.00118
+ciprofloxacin,<=1,0,1,0.0,0.00118,0.00118
+colistin,=1,0,1,0.0,0.00118,0.00118
+ertapenem,2,0,1,0.0,0.00118,0.00118
+ertapenem,<0.25,0,1,0.0,0.00118,0.00118
+ertapenem,<=1,0,1,0.0,0.00118,0.00118
+ertapenem,<=19,0,1,0.0,0.00118,0.00118
+ertapenem,>4,0,1,0.0,0.00118,0.00118
+ertapenem,>=0.5,0,1,0.0,0.00118,0.00118
+ertapenem,>=2,0,1,0.0,0.00118,0.00118
+fosfomycin,>=256,0,1,0.0,0.00118,0.00118
+gentamicin,<=4,0,1,0.0,0.00118,0.00118
+imipenem,=4,0,1,0.0,0.00118,0.00118
+levofloxacin,0.25,0,1,0.0,0.00118,0.00118
+levofloxacin,<0.12,0,1,0.0,0.00118,0.00118
+meropenem,32,0,1,0.0,0.00118,0.00118
+meropenem,<0.25,0,1,0.0,0.00118,0.00118
+meropenem,=0.5,0,1,0.0,0.00118,0.00118
+meropenem,>=0.25,0,1,0.0,0.00118,0.00118
+meropenem,>=32,0,1,0.0,0.00118,0.00118
+nitrofurantoin,>512,0,1,0.0,0.00118,0.00118
+nitrofurantoin,>=320,0,1,0.0,0.00118,0.00118
+piperacillin/tazobactam,=64/8,0,1,0.0,0.00118,0.00118
+piperacillin/tazobactam,>=16/4,0,1,0.0,0.00118,0.00118
+tigecycline,8,0,1,0.0,0.00118,0.00118
+tigecycline,>=2,0,1,0.0,0.00118,0.00118
+trimethoprim,4,0,1,0.0,0.00118,0.00118
+trimethoprim/sulfamethoxazole,<=16/304,0,1,0.0,0.00118,0.00118
+trimethoprim/sulfamethoxazole,>1/19,0,1,0.0,0.00118,0.00118
+trimethoprim/sulfamethoxazole,>=30,0,1,0.0,0.00118,0.00118
+cefazolin,32,1,0,0.00063,0.0,0.00063
+imipenem,6,1,0,0.00063,0.0,0.00063
+meropenem,0.023,1,0,0.00063,0.0,0.00063
+meropenem,0.032,1,0,0.00063,0.0,0.00063
+meropenem,0.094,1,0,0.00063,0.0,0.00063
+meropenem,0.125,1,0,0.00063,0.0,0.00063
+meropenem,0.25,1,0,0.00063,0.0,0.00063
+meropenem,0.38,1,0,0.00063,0.0,0.00063
+meropenem,1,1,0,0.00063,0.0,0.00063
+meropenem,6,1,0,0.00063,0.0,0.00063
