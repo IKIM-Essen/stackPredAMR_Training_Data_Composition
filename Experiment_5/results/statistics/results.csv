@@ -1,0 +1,14 @@
+Metric,Result
+n_blocks,15
+n_test_datasets,3
+n_folds,5
+n_antibiotics,3
+mean_mix_accuracy,0.8707743849418303
+mean_phoenix_accuracy,0.8129908511860333
+mean_difference,0.052561048588120725
+ci_lower,0.030007362657685218
+ci_upper,0.07567291591522723
+p_value,0.00067138671875
+alternative,two-sided
+significant_0.05,True
+n_permutations,32768
