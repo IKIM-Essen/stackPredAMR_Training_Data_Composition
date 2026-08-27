@@ -1,0 +1,5 @@
+Metric,Train set,Phoenix Test,VITEK Test,Unclassified Test
+ME,Phoenix Train,1.20,1.39,1.40
+ME,Combined Train,0.88,1.07,2.16
+VME,Phoenix Train,1.59,1.93,2.38
+VME,Combined Train,1.89,1.33,2.80
