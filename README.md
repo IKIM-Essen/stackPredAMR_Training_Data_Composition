@@ -1,6 +1,6 @@
 # Training Data Composition Experiments
 
-This repository contains the scripts and processed results used for the five experiments investigating the influence of antimicrobial susceptibility testing (AST) device selection and training dataset composition on machine learning-based antimicrobial resistance prediction.
+This repository contains the scripts and processed results for five experiments investigating how training dataset composition and AST-device-associated phenotypic-label provenance relate to the performance of machine learning-based antimicrobial resistance prediction.
 
 ## Requirements
 
