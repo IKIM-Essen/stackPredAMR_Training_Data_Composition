@@ -43,7 +43,7 @@ Contains the scripts used for post-processing and analysis, including:
 
 The merged result files produced by these scripts are also included in this directory.
 
-Some experiments contain additional analysis scripts specific to the corresponding experiment. For example, **Experiment 4** includes the implementation of the Radius Neighbors Classifier (`neighbors_analysis/radius_neighbors_analysis.ipynb`) together with the UMAP visualization (`umap_plot.ipynb`), while **Experiment 5** contains the statistical analysis used for the Wilcoxon signed-rank tests (`statistics.ipynb`).
+Some experiments contain additional analysis scripts specific to the corresponding experiment. For example, Experiment 4 includes the implementation of the Radius Neighbors Classifier (neighbors_analysis/radius_neighbors_analysis.ipynb) together with the UMAP visualization (umap_plot.ipynb), while Experiment 5 contains the statistical analysis used for the exact two-sided paired permutation test (statistics.ipynb).
 
 ### `results/stackPredAMR_Results`
 
