@@ -1,0 +1,4 @@
+row_device,column_device,S_S,S_R,R_S,R_R,n_isolates,agreement_percent
+Phoenix,VITEK,60,1,80,76,217,62.7
+Phoenix,MicroScan,49,12,3,153,217,93.1
+VITEK,MicroScan,52,88,0,77,217,59.4
